@@ -73,7 +73,7 @@ app.put("/repositories/:id", (request, response) => {
   repository.url = url;
   repository.techs = techs;
 
-  return response.json(repository);
+  return response.json(repositorygit);
 
 });
 
